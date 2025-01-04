@@ -22,7 +22,7 @@ if (document.getElementById('registrationForm')) {
 
       if (response.ok) {
         alert('Registration successful! Redirecting to sign-in page...');
-        window.location.href = './signin.html';
+        window.location.href = './index.html';
       } else {
         alert(`Error: ${data.message || 'Failed to register user!'}`);
       }
